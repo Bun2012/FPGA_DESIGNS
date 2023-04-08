@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/LED_manager.vhd,1433135869,vhdl,,,,led_manager,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/meta_harden.vhd,1433135869,vhdl,,,,meta_harden,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/register8.vhd,1433135869,vhdl,,,,register8,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/reset_bridge.vhd,1433135869,vhdl,,,,reset_bridge,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_baud_gen.vhd,1433135869,vhdl,,,,uart_baud_gen,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_driver_tb.vhd,1433135869,vhdl,,,,tb_uart_driver,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd,1663426899,vhdl,,,,uart_led,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led_simple_tb.vhd,1663433239,vhdl,,,,uart_led_simple_tb,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx.vhd,1433135869,vhdl,,,,uart_rx,,,,,,,,
+C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx_ctl.vhd,1433135869,vhdl,,,,uart_rx_ctl,,,,,,,,

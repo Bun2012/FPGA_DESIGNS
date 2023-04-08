@@ -1,0 +1,24 @@
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+Note: CountDown is larger: 9
+Time: 0 ps  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountDown is larger: 8
+Time: 10 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountDown is larger: 7
+Time: 20 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountDown is larger: 6
+Time: 30 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountUp is larger: 5
+Time: 40 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountUp is larger: 6
+Time: 50 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountUp is larger: 7
+Time: 60 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountUp is larger: 8
+Time: 70 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountUp is larger: 9
+Time: 80 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountUp is larger: 10
+Time: 90 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd
+Note: CountUp is larger: 11
+Time: 100 ns  Iteration: 1  Process: /T08_IfTb/line__20  File: C:/VhdlWiz/My_Projects/T08_IfTb/T08_IfTb.srcs/sim_1/imports/exercises/T08_IfTb.vhd

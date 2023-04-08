@@ -1,0 +1,51 @@
+C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T15_PortMapTb.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T15_PortMapTb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T15_PortMapTb
+-- Compiling architecture sim of T15_PortMapTb
+** Warning: C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T15_PortMapTb.vhd(20): (vcom-1246) Range 7 downto 9 is null.
+
+-- Loading entity T15_Mux
+
+} {} {}} C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T15_Mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T15_Mux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T15_Mux
+-- Compiling architecture rtl of T15_Mux
+
+} {} {}} C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_TimerTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_TimerTb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T18_TimerTb
+-- Compiling architecture sim of T18_TimerTb
+-- Loading entity T18_Timer
+
+} {} {}} C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_ProcedureTb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_ProcedureTb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T19_ProcedureTb
+-- Compiling architecture sim of T19_ProcedureTb
+-- Loading entity T19_Timer
+
+} {} {}} C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_Timer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_Timer.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity T18_Timer
+-- Compiling architecture rtl of T18_Timer
+
+} {} {}}

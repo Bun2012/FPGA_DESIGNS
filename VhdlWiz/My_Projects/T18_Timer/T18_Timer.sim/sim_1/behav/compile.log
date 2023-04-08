@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T18_Timer/T18_Timer.srcs/sources_1/imports/exercises/T18_Timer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T18_Timer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T18_Timer/T18_Timer.srcs/sim_1/imports/exercises/T18_TimerTb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T18_TimerTb

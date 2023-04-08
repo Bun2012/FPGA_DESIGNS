@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../T10_StdLogicTb.srcs/sim_1/imports/exercises/T10_StdLogicTb.vhd"
+
+# Do not sort compile order
+nosort

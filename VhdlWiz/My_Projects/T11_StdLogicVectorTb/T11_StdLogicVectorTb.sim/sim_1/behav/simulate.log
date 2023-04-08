@@ -1,0 +1,7 @@
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+ERROR: Index -1 out of bound 7 downto 0
+Time: 10 ns  Iteration: 0  Process: /T11_StdLogicVectorTb/line__26
+  File: C:/VhdlWiz/My_Projects/T11_StdLogicVectorTb/T11_StdLogicVectorTb.srcs/sim_1/imports/exercises/T11_StdLogicVectorTb.vhd
+
+HDL Line: C:/VhdlWiz/My_Projects/T11_StdLogicVectorTb/T11_StdLogicVectorTb.srcs/sim_1/imports/exercises/T11_StdLogicVectorTb.vhd:44

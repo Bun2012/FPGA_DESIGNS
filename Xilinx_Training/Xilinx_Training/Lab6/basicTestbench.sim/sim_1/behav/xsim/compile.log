@@ -1,0 +1,2 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led_simple_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_led_simple_tb'

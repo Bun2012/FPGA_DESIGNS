@@ -1,0 +1,428 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Sep 17 10:01:56 2022
+# Process ID: 17896
+# Current directory: C:/Xilinx_Training/Lab6/basicTestbench.runs/synth_1
+# Command line: vivado.exe -log uart_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_led.tcl
+# Log file: C:/Xilinx_Training/Lab6/basicTestbench.runs/synth_1/uart_led.vds
+# Journal file: C:/Xilinx_Training/Lab6/basicTestbench.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source uart_led.tcl -notrace
+Command: synth_design -top uart_led -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14888 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 430.707 ; gain = 97.836
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'uart_led' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:70]
+	Parameter CLOCK_RATE bound to: 50000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'IBUF_rst_i0' to cell 'IBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:146]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'IBUF_rxd_i0' to cell 'IBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:147]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'IBUFG_clk_i0' to cell 'IBUFG' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:148]
+INFO: [Synth 8-113] binding component instance 'BUFG_clk_rx_i0' to cell 'BUFG' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:149]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'IBUF_sel_i0' to cell 'IBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:150]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUF_led_i' to cell 'OBUF' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:155]
+INFO: [Synth 8-3491] module 'reset_bridge' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/reset_bridge.vhd:24' bound to instance 'meta_harden_rst_i0' of component 'reset_bridge' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'reset_bridge' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/reset_bridge.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'reset_bridge' (1#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/reset_bridge.vhd:30]
+INFO: [Synth 8-3491] module 'meta_harden' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/meta_harden.vhd:58' bound to instance 'meta_harden_sel_i0' of component 'meta_harden' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'meta_harden' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/meta_harden.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'meta_harden' (2#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/meta_harden.vhd:66]
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter CLOCK_RATE bound to: 50000000 - type: integer 
+INFO: [Synth 8-3491] module 'uart_rx' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx.vhd:73' bound to instance 'uart_rx_i0' of component 'uart_rx' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx.vhd:88]
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter CLOCK_RATE bound to: 50000000 - type: integer 
+INFO: [Synth 8-3491] module 'meta_harden' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/meta_harden.vhd:58' bound to instance 'meta_harden_rxd_i0' of component 'meta_harden' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx.vhd:128]
+	Parameter CLOCK_RATE bound to: 50000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+INFO: [Synth 8-3491] module 'uart_baud_gen' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_baud_gen.vhd:63' bound to instance 'uart_baud_gen_rx_i0' of component 'uart_baud_gen' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'uart_baud_gen' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_baud_gen.vhd:74]
+	Parameter CLOCK_RATE bound to: 50000000 - type: integer 
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_baud_gen' (3#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_baud_gen.vhd:74]
+INFO: [Synth 8-3491] module 'uart_rx_ctl' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx_ctl.vhd:86' bound to instance 'uart_rx_ctl_i0' of component 'uart_rx_ctl' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'uart_rx_ctl' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx_ctl.vhd:98]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx_ctl.vhd:117]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx_ctl' (4#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx_ctl.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (5#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_rx.vhd:88]
+INFO: [Synth 8-3491] module 'LED_manager' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/LED_manager.vhd:24' bound to instance 'LEDman' of component 'LED_manager' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'LED_manager' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/LED_manager.vhd:36]
+INFO: [Synth 8-3491] module 'register8' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/register8.vhd:24' bound to instance 'regCh1' of component 'register8' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/LED_manager.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'register8' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/register8.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'register8' (6#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/register8.vhd:32]
+INFO: [Synth 8-3491] module 'register8' declared at 'C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/register8.vhd:24' bound to instance 'regCh2' of component 'register8' [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/LED_manager.vhd:65]
+INFO: [Synth 8-226] default block is never used [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/LED_manager.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'LED_manager' (7#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/LED_manager.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'uart_led' (8#1) [C:/Xilinx_Training/Lab6/basicTestbench.srcs/sources_1/imports/KCU105/uart_led.vhd:70]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.258 ; gain = 153.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.258 ; gain = 153.387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.258 ; gain = 153.387
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-5546] ROM "internal_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'uart_rx_ctl'
+INFO: [Synth 8-5544] ROM "over_sample_cnt_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_cnt_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_cnt" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_cnt" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rx_data_rdy" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'uart_rx_ctl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 486.258 ; gain = 153.387
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 13    
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module reset_bridge 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module meta_harden 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module uart_baud_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module uart_rx_ctl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+	   4 Input      1 Bit        Muxes := 1     
+Module register8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module LED_manager 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "uart_rx_i0/uart_rx_ctl_i0/over_sample_cnt_done" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-3886] merging instance 'LEDman/regCh2/data_out_reg[0]' (FDRE) to 'LEDman/regCh2/data_out_reg[1]'
+INFO: [Synth 8-3886] merging instance 'LEDman/regCh2/data_out_reg[1]' (FDRE) to 'LEDman/regCh2/data_out_reg[2]'
+INFO: [Synth 8-3886] merging instance 'LEDman/regCh2/data_out_reg[2]' (FDRE) to 'LEDman/regCh2/data_out_reg[3]'
+INFO: [Synth 8-3886] merging instance 'LEDman/regCh2/data_out_reg[3]' (FDRE) to 'LEDman/regCh2/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'LEDman/regCh2/data_out_reg[4]' (FDRE) to 'LEDman/regCh2/data_out_reg[5]'
+INFO: [Synth 8-3886] merging instance 'LEDman/regCh2/data_out_reg[5]' (FDRE) to 'LEDman/regCh2/data_out_reg[6]'
+INFO: [Synth 8-3886] merging instance 'LEDman/regCh2/data_out_reg[6]' (FDRE) to 'LEDman/regCh2/data_out_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\LEDman/regCh2/data_out_reg[7] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 649.805 ; gain = 316.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 649.805 ; gain = 316.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     2|
+|3     |LUT2  |    12|
+|4     |LUT3  |     4|
+|5     |LUT4  |     6|
+|6     |LUT5  |    13|
+|7     |LUT6  |    15|
+|8     |FDPE  |     2|
+|9     |FDRE  |    44|
+|10    |FDSE  |     3|
+|11    |IBUF  |     3|
+|12    |IBUFG |     1|
+|13    |OBUF  |     8|
++------+------+------+
+
+Report Instance Areas: 
++------+------------------------+--------------+------+
+|      |Instance                |Module        |Cells |
++------+------------------------+--------------+------+
+|1     |top                     |              |   114|
+|2     |  LEDman                |LED_manager   |    24|
+|3     |    regCh1              |register8     |    16|
+|4     |  meta_harden_rst_i0    |reset_bridge  |     2|
+|5     |  uart_rx_i0            |uart_rx       |    75|
+|6     |    meta_harden_rxd_i0  |meta_harden   |     2|
+|7     |    uart_baud_gen_rx_i0 |uart_baud_gen |    14|
+|8     |    uart_rx_ctl_i0      |uart_rx_ctl   |    59|
++------+------------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 651.066 ; gain = 318.195
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 757.797 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFG => IBUF: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+67 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 757.797 ; gain = 437.562
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 757.797 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx_Training/Lab6/basicTestbench.runs/synth_1/uart_led.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file uart_led_utilization_synth.rpt -pb uart_led_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 17 10:02:13 2022...

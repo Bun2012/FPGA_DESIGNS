@@ -1,0 +1,7 @@
+Running: xsim.dir/T07_WaitOnUntilTb_behav/xsimk.exe -simmode gui -wdb T07_WaitOnUntilTb_behav.wdb -simrunnum 0 -socket 64557
+Design successfully loaded
+Design Loading Memory Usage: 23632 KB (Peak: 23632 KB)
+Design Loading CPU Usage: 187 ms
+Simulation completed
+Simulation Memory Usage: 24008 KB (Peak: 24008 KB)
+Simulation CPU Usage: 202 ms

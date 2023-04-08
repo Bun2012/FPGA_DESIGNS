@@ -1,0 +1,1 @@
+-wto "60df153eb83c493cb3709c86b2b2ea18" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "reset_bridge_tb2_behav" "xil_defaultlib.reset_bridge_tb2" -log "elaborate.log" 

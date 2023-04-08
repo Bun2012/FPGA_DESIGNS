@@ -1,0 +1,277 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 36452
+License: Customer
+
+Current time: 	Wed Jun 15 08:54:23 CDT 2022
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 25 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	anderson.young
+User home directory: C:/Users/anderson.young
+User working directory: L:/Xilinx_Training/Lab4
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/anderson.young/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/anderson.young/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/anderson.young/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	L:/Xilinx_Training/Lab4/vivado.log
+Vivado journal file location: 	L:/Xilinx_Training/Lab4/vivado.jou
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@ws-al240.tsc.private
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 596 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 107 MB (+110005kb) [00:00:07]
+// [Engine Memory]: 583 MB (+459958kb) [00:00:07]
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: L:\Xilinx_Training\Lab4\buildingMemory.xpr. Version: Vivado v2018.3 
+// Tcl Message: open_project L:/Xilinx_Training/Lab4/buildingMemory.xpr 
+// CommandFailedException: boost::filesystem::remove: Access is denied: "L:\Xilinx_Training\Lab4\.\.hdi.isWriteableTest.36452.tmp"
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 613 MB. GUI used memory: 46 MB. Current time: 6/15/22, 8:54:25 AM CDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project L:/Xilinx_Training/Lab4/buildingMemory.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 713 MB (+105737kb) [00:00:20]
+// [Engine Memory]: 758 MB (+9767kb) [00:00:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  2809 ms.
+// Project name: buildingMemory; location: L:/Xilinx_Training/Lab4; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 791.074 ; gain = 156.234 
+dismissDialog("Open Project"); // bx (cp)
+// Elapsed time: 691 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 68 seconds
+setFileChooser("L:/Xilinx_Training/lang-vhdl-2021.1-rev1-xlnx_lab_files/training/buildingMemory/support/DPmemory_tb.vhd");
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 78 seconds
+dismissDialog("Add Sources"); // c (cp)
+// bx (cp):  Checking for Conflicts : addNotify
+dismissDialog("Checking for Conflicts"); // bx (cp)
+// c (cp): Add Sources: addNotify
+// bx (c):  Add Simulation Sources  : addNotify
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: import_files -fileset sim_1 -norecurse L:/Xilinx_Training/lang-vhdl-2021.1-rev1-xlnx_lab_files/training/buildingMemory/support/DPmemory_tb.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 780 MB. GUI used memory: 54 MB. Current time: 6/15/22, 9:07:30 AM CDT
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Simulation Sources"); // bx (c)
+// [GUI Memory]: 113 MB (+278kb) [00:13:23]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 286 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cp): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B (f, c)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File..."); // af (al, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "DPmemory"); // Y (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "DP_memory"); // Y (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir L:/Xilinx_Training/Lab4/buildingMemory.srcs/sources_1/new'
+// WARNING: HEventQueue.dispatchEvent() is taking  1277 ms.
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir L:/Xilinx_Training/Lab4/buildingMemory.srcs/sources_1/new 
+// Elapsed time: 15 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 39 seconds
+dismissDialog("Add Sources"); // c (cp)
+// bx (cp):  Add Sources  : addNotify
+// Tcl Message: close [ open L:/Xilinx_Training/Lab4/buildingMemory.srcs/sources_1/new/DP_memory.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: add_files L:/Xilinx_Training/Lab4/buildingMemory.srcs/sources_1/new/DP_memory.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// I (cp): Define Module: addNotify
+dismissDialog("Add Sources"); // bx (cp)
+// Elapsed time: 32 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab (Q, I)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (I)
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_No", "No"); // JButton (C, J)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab (Q, I)
+// Elapsed time: 30 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_clk", 0, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 1, (String) null, 0); // ab (Q, I)
+// Elapsed time: 11 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr", 1, "Port Name", 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 1, "Direction", 1); // ab (Q, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr ; in ; false ; 0 ; 0", 1, "false", 2); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr ; in ; true ; 0 ; 0", 1, "0", 3); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "9", 1, "MSB", 3); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 2, (String) null, 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr", 1, "Port Name", 0); // ab (Q, I)
+// Elapsed time: 20 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_datain", 2, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_datain ; in ; false ; 0 ; 0", 2, "false", 2); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_datain ; in ; true ; 0 ; 0", 2, "0", 3); // ab (Q, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "7", 2, "MSB", 3); // ab (Q, I)
+// Elapsed time: 16 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 3, (String) null, 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_write", 3, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr ; in ; true ; 9 ; 0", 1, "PortA_addr", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; true ; 9 ; 0", 1, "in", 1); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 1, "Direction", 1); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 0, "Direction", 1); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 0, "Direction", 1); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 0, "Direction", 1); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; true ; 9 ; 0", 1, (String) null, 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_clk", 0, "Port Name", 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr", 1, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_clk ; in ; false ; 0 ; 0", 0, "PortA_clk", 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_clk", 0, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr ; in ; true ; 9 ; 0", 1, "PortA_addr", 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_addr", 1, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_datain ; in ; true ; 7 ; 0", 2, "PortA_datain", 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_datain", 2, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_write ; in ; false ; 0 ; 0", 3, "PortA_write", 0); // ab (Q, I)
+// Elapsed time: 13 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_writeEnable", 3, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_writeEnable ; in ; false ; 0 ; 0", 3, "false", 2); // ab (Q, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 801 MB. GUI used memory: 101 MB. Current time: 6/15/22, 9:16:15 AM CDT
+// Elapsed time: 10 seconds
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 4, (String) null, 0); // ab (Q, I)
+// Elapsed time: 28 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_dataOut", 4, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_dataOut ; in ; false ; 0 ; 0", 4, "in", 1); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 4, "Direction", 1); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_dataOut ; out ; false ; 0 ; 0", 4, "false", 2); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortA_dataOut ; out ; true ; 0 ; 0", 4, "0", 3); // ab (Q, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "7", 4, "MSB", 3); // ab (Q, I)
+// Elapsed time: 17 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_clk", 5, "Port Name", 0); // ab (Q, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 5, "Direction", 1); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_addr", 6, "Port Name", 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 6, "Direction", 1); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_addr ; in ; true ; 0 ; 0", 6, "0", 3); // ab (Q, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "9", 6, "MSB", 3); // ab (Q, I)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1179 ms. Increasing delay to 3537 ms.
+// Elapsed time: 18 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_datain", 7, "Port Name", 0); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "in", 7, "Direction", 1); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_datain ; in ; true ; 0 ; 0", 7, "0", 3); // ab (Q, I)
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "7", 7, "MSB", 3); // ab (Q, I)
+// Elapsed time: 12 seconds
+applyEnter(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, (String) null); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_writeEnable", 8, "Port Name", 0); // ab (Q, I)
+// HMemoryUtils.trashcanNow. Engine heap size: 824 MB. GUI used memory: 133 MB. Current time: 6/15/22, 9:18:05 AM CDT
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_dataOut", 9, "Port Name", 0); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_dataOut ; in ; false ; 0 ; 0", 9, "in", 1); // ab (Q, I)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "out", 9, "Direction", 1); // ab (Q, I)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "PortB_dataOut ; out ; false ; 0 ; 0", 9, "false", 2); // ab (Q, I)
+// [GUI Memory]: 153 MB (+36063kb) [00:24:12]
+// [Engine Memory]: 850 MB (+56113kb) [00:24:12]
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+dismissDialog("Define Module"); // I (cp)
+// [GUI Memory]: 171 MB (+11208kb) [00:24:39]
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 195 MB (+15880kb) [00:24:40]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 857 MB. GUI used memory: 136 MB. Current time: 6/15/22, 9:48:06 AM CDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 857 MB. GUI used memory: 134 MB. Current time: 6/15/22, 10:18:06 AM CDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 

@@ -1,0 +1,12 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.3/bin/unwrapped/win64.o/xelab.exe -wto 98a5b46842bc447abc92e3e1e1d04fbc --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot T06_SignalTb_behav xil_defaultlib.T06_SignalTb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling architecture sim of entity xil_defaultlib.t06_signaltb
+Built simulation snapshot T06_SignalTb_behav

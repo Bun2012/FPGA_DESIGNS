@@ -1,0 +1,8 @@
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+Note: Hello!
+Time: 0 ps  Iteration: 0  Process: /T03_LoopTb/line__7  File: C:/VhdlWiz/My_Projects/T03_LoopTb/T03_LoopTb.srcs/sim_1/imports/exercises/T03_LoopTb.vhd
+Note: here
+Time: 0 ps  Iteration: 0  Process: /T03_LoopTb/line__7  File: C:/VhdlWiz/My_Projects/T03_LoopTb/T03_LoopTb.srcs/sim_1/imports/exercises/T03_LoopTb.vhd
+Note: Goodbye!
+Time: 10 ns  Iteration: 0  Process: /T03_LoopTb/line__7  File: C:/VhdlWiz/My_Projects/T03_LoopTb/T03_LoopTb.srcs/sim_1/imports/exercises/T03_LoopTb.vhd

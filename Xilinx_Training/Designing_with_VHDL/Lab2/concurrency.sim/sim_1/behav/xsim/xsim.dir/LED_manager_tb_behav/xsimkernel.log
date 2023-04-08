@@ -1,0 +1,7 @@
+Running: xsim.dir/LED_manager_tb_behav/xsimk.exe -simmode gui -wdb LED_manager_tb_behav.wdb -simrunnum 0 -socket 65433
+Design successfully loaded
+Design Loading Memory Usage: 6844 KB (Peak: 6844 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 7412 KB (Peak: 7412 KB)
+Simulation CPU Usage: 61 ms

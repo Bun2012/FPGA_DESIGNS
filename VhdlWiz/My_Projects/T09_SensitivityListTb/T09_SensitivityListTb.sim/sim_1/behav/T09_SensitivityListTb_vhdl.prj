@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../T09_SensitivityListTb.srcs/sim_1/imports/exercises/T09_SensitivityListTb.vhd"
+
+# Do not sort compile order
+nosort

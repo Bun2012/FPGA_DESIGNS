@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/new/LED_manager.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LED_manager'
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/imports/new/register8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'register8'
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Xilinx_Training/Lab2/concurrency.srcs/sim_1/new/LED_manager_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LED_manager_tb'

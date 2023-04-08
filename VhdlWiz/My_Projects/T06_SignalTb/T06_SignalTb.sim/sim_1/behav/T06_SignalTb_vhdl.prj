@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,19 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 48951c73b6794288b79a3daa7a3cd4e7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot LED_manager_tb_behav xil_defaultlib.LED_manager_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.register8 [register8_default]
+Compiling architecture behavioral of entity xil_defaultlib.LED_manager [led_manager_default]
+Compiling architecture behavioral of entity xil_defaultlib.led_manager_tb
+Built simulation snapshot LED_manager_tb_behav

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T20_TrafficLights/T20_TrafficLights.srcs/sources_1/imports/exercises/T20_TrafficLights.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T20_TrafficLights
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T20_TrafficLights/T20_TrafficLights.srcs/sim_1/imports/exercises/T20_FiniteStateMachineTb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T20_FiniteStateMachineTb

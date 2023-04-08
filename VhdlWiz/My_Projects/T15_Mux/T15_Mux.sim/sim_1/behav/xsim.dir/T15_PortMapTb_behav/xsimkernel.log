@@ -1,0 +1,7 @@
+Running: xsim.dir/T15_PortMapTb_behav/xsimk.exe -simmode gui -wdb T15_PortMapTb_behav.wdb -simrunnum 0 -socket 61837
+Design successfully loaded
+Design Loading Memory Usage: 23180 KB (Peak: 23180 KB)
+Design Loading CPU Usage: 234 ms
+Simulation completed
+Simulation Memory Usage: 23560 KB (Peak: 23560 KB)
+Simulation CPU Usage: 280 ms

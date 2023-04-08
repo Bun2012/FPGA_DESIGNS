@@ -1,0 +1,7 @@
+Running: xsim.dir/T04_ForLoopTb_behav/xsimk.exe -simmode gui -wdb T04_ForLoopTb_behav.wdb -simrunnum 0 -socket 62515
+Design successfully loaded
+Design Loading Memory Usage: 22968 KB (Peak: 22968 KB)
+Design Loading CPU Usage: 218 ms
+Simulation completed
+Simulation Memory Usage: 23232 KB (Peak: 23232 KB)
+Simulation CPU Usage: 218 ms

@@ -1,0 +1,7 @@
+Running: xsim.dir/T05_WhileLoopTb_behav/xsimk.exe -simmode gui -wdb T05_WhileLoopTb_behav.wdb -simrunnum 0 -socket 63434
+Design successfully loaded
+Design Loading Memory Usage: 23040 KB (Peak: 23040 KB)
+Design Loading CPU Usage: 187 ms
+Simulation completed
+Simulation Memory Usage: 23300 KB (Peak: 23300 KB)
+Simulation CPU Usage: 187 ms

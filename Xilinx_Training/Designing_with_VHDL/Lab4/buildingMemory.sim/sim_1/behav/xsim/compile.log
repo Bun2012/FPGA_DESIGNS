@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Xilinx_Training/Lab4/buildingMemory.srcs/sources_1/new/DP_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DP_memory'
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Xilinx_Training/Lab4/buildingMemory.srcs/sim_1/imports/support/DPmemory_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DPmemory_tb'

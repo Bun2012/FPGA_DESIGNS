@@ -1,0 +1,7 @@
+Running: xsim.dir/T14_CaseWhenTb_behav/xsimk.exe -simmode gui -wdb T14_CaseWhenTb_behav.wdb -simrunnum 0 -socket 59021
+Design successfully loaded
+Design Loading Memory Usage: 23076 KB (Peak: 23076 KB)
+Design Loading CPU Usage: 264 ms
+Simulation completed
+Simulation Memory Usage: 23464 KB (Peak: 23464 KB)
+Simulation CPU Usage: 296 ms

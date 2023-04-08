@@ -1,0 +1,1 @@
+-wto "a3b570e4a5d441ad817236a3973040cb" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "T11_StdLogicVectorTb_behav" "xil_defaultlib.T11_StdLogicVectorTb" -log "elaborate.log" 

@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../T13_ConcurrentProcsTb.srcs/sim_1/imports/exercises/T13_ConcurrentProcsTb.vhd"
+
+# Do not sort compile order
+nosort

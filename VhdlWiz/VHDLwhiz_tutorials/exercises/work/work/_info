@@ -1,0 +1,259 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Et18_timer
+Z0 w1605112830
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/VhdlWiz/VHDLwhiz_tutorials/exercises/work
+Z5 8C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_Timer.vhd
+Z6 FC:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_Timer.vhd
+l0
+L5
+VdDf>?f>4R[MNoe]N2124>0
+!s100 mT2T9Sh?Az9QoSY8_Lf<c1
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1605112882
+!i10b 1
+Z9 !s108 1605112881.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_Timer.vhd|
+Z11 !s107 C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_Timer.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 9 t18_timer 0 22 dDf>?f>4R[MNoe]N2124>0
+l20
+L15
+VcfH4cfcRQ=H7PHd^>OmYa3
+!s100 ]2hU]n8z31;@@OWmAlP3[1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Et18_timertb
+Z15 w1604677953
+R1
+R2
+R3
+R4
+Z16 8C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_TimerTb.vhd
+Z17 FC:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_TimerTb.vhd
+l0
+L5
+VA`h5_f4jnjOP4CA<a1Z@a2
+!s100 GO??^DYchmI_a5?3H`hbW2
+R7
+32
+Z18 !s110 1605112966
+!i10b 1
+Z19 !s108 1605112966.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_TimerTb.vhd|
+Z21 !s107 C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T18_TimerTb.vhd|
+!i113 1
+R12
+R13
+Asim
+R14
+R1
+R2
+R3
+DEx4 work 11 t18_timertb 0 22 A`h5_f4jnjOP4CA<a1Z@a2
+l20
+L8
+Vkh9M5dR<lio^Kfm`]k4ig1
+!s100 _GlgA69Ccj67SkjQWKOWg1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Et19_proceduretb
+Z22 w1604677952
+R1
+R2
+R3
+R4
+Z23 8C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_ProcedureTb.vhd
+Z24 FC:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_ProcedureTb.vhd
+l0
+L5
+V=kGLM:ofe56WBLEH_3Vk@0
+!s100 i_G]I[Hld;GgFajgTcae63
+R7
+32
+Z25 !s110 1605120062
+!i10b 1
+Z26 !s108 1605120062.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_ProcedureTb.vhd|
+Z28 !s107 C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_ProcedureTb.vhd|
+!i113 1
+R12
+R13
+Asim
+Z29 DEx4 work 9 t19_timer 0 22 zSCzmNzQnB=Ehc<O]U;;D2
+R1
+R2
+R3
+DEx4 work 15 t19_proceduretb 0 22 =kGLM:ofe56WBLEH_3Vk@0
+l20
+L8
+V_LR2D?zfX8]hm>kN@ZhmR1
+!s100 P6XkJ@ZY57NE0g@9MFTb53
+R7
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R12
+R13
+Et19_timer
+Z30 w1605120495
+R1
+R2
+R3
+R4
+Z31 8C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_Timer.vhd
+Z32 FC:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_Timer.vhd
+l0
+L5
+VzSCzmNzQnB=Ehc<O]U;;D2
+!s100 oj?Ul_2`@6=>OAZG7k;GW3
+R7
+32
+Z33 !s110 1605128599
+!i10b 1
+Z34 !s108 1605128599.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_Timer.vhd|
+Z36 !s107 C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T19_Timer.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R29
+l39
+L15
+VS0:MHQCi01C<di6>m1ia[0
+!s100 >8_S=keIim7J<JklOGETn2
+R7
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R12
+R13
+Et20_finitestatemachinetb
+R15
+R1
+R2
+R3
+R4
+Z37 8C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_FiniteStateMachineTb.vhd
+Z38 FC:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_FiniteStateMachineTb.vhd
+l0
+L5
+V4fSb<KWJl[ne_NEbg`7Tl3
+!s100 Y^]MPOjINBdn:W_J:3NYL0
+R7
+32
+Z39 !s110 1605128652
+!i10b 1
+Z40 !s108 1605128652.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_FiniteStateMachineTb.vhd|
+Z42 !s107 C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_FiniteStateMachineTb.vhd|
+!i113 1
+R12
+R13
+Asim
+Z43 DEx4 work 17 t20_trafficlights 0 22 ;KY9GNf4Im`B;OZ1^`1^g1
+R1
+R2
+R3
+DEx4 work 24 t20_finitestatemachinetb 0 22 4fSb<KWJl[ne_NEbg`7Tl3
+l23
+L8
+VX;>fJ0Hbeeh1YAMUO7HB^1
+!s100 ^o[^P_0ij4>jc<?FZ?]FS1
+R7
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R12
+R13
+Et20_trafficlights
+Z44 w1605128366
+R1
+R2
+R3
+R4
+Z45 8C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_TrafficLights.vhd
+Z46 FC:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_TrafficLights.vhd
+l0
+L5
+V;KY9GNf4Im`B;OZ1^`1^g1
+!s100 BWfaU58aDAU`7;foS=GI61
+R7
+32
+Z47 !s110 1605128645
+!i10b 1
+Z48 !s108 1605128645.000000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_TrafficLights.vhd|
+Z50 !s107 C:/VhdlWiz/VHDLwhiz_tutorials/exercises/T20_TrafficLights.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R43
+l28
+L18
+Vld^cm?zzYk86O<UYiId?V2
+!s100 Lb`9O_CXOe23EQA05=Bm>0
+R7
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R12
+R13

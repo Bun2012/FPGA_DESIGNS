@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T17_FlipFlop/T17_FlipFlop.srcs/sources_1/imports/exercises/T17_FlipFlop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T17_FlipFlop
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T17_FlipFlop/T17_FlipFlop.srcs/sim_1/imports/exercises/T17_ClockedProcessTb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T17_ClockedProcessTb

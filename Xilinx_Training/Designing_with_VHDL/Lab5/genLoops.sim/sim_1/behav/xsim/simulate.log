@@ -1,0 +1,12 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+ERROR: Index 8 out of bound 7 downto 0
+Time: 83129 ns  Iteration: 0  Process: /tb_uart_driver/send_char_bitper
+  File: L:/Xilinx_Training/Lab5/genLoops.srcs/sources_1/imports/KCU105/tb_uart_driver.vhd
+
+HDL Line: L:/Xilinx_Training/Lab5/genLoops.srcs/sources_1/imports/KCU105/tb_uart_driver.vhd:79
+ERROR: Index 8 out of bound 7 downto 0
+Time: 83129 ns  Iteration: 0  Process: /tb_uart_driver/send_char_bitper
+  File: L:/Xilinx_Training/Lab5/genLoops.srcs/sources_1/imports/KCU105/tb_uart_driver.vhd
+
+HDL Line: L:/Xilinx_Training/Lab5/genLoops.srcs/sources_1/imports/KCU105/tb_uart_driver.vhd:79

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="LED_manager_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="LED_manager_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="381960000fs"></ZoomStartTime>
+      <ZoomEndTime time="635560001fs"></ZoomEndTime>
+      <Cursor1Time time="515000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="187"></NameColumnWidth>
+      <ValueColumnWidth column_width="76"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/LED_manager_tb/Channel_1_data" type="array">
+      <obj_property name="ElementShortName">Channel_1_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Channel_1_data[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/Channel_2_data" type="array">
+      <obj_property name="ElementShortName">Channel_2_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Channel_2_data[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/Channel_1_enable" type="logic">
+      <obj_property name="ElementShortName">Channel_1_enable</obj_property>
+      <obj_property name="ObjectShortName">Channel_1_enable</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/Channel_2_enable" type="logic">
+      <obj_property name="ElementShortName">Channel_2_enable</obj_property>
+      <obj_property name="ObjectShortName">Channel_2_enable</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/Selector" type="logic">
+      <obj_property name="ElementShortName">Selector</obj_property>
+      <obj_property name="ObjectShortName">Selector</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LED_manager_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

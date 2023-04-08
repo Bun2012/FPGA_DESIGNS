@@ -1,0 +1,217 @@
+
+*** Running vivado
+    with args -log LED_manager.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source LED_manager.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source LED_manager.tcl -notrace
+Command: synth_design -top LED_manager -part xc7z020clg484-1 -flatten_hierarchy none
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12540 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 430.305 ; gain = 97.988
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LED_manager' [L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/new/LED_manager.vhd:48]
+INFO: [Synth 8-3491] module 'register8' declared at 'L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/imports/new/register8.vhd:34' bound to instance 'regCh1' of component 'register8' [L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/new/LED_manager.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'register8' [L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/imports/new/register8.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'register8' (1#1) [L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/imports/new/register8.vhd:42]
+INFO: [Synth 8-3491] module 'register8' declared at 'L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/imports/new/register8.vhd:34' bound to instance 'regCh2' of component 'register8' [L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/new/LED_manager.vhd:82]
+INFO: [Synth 8-226] default block is never used [L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/new/LED_manager.vhd:93]
+INFO: [Synth 8-256] done synthesizing module 'LED_manager' (2#1) [L:/Xilinx_Training/Lab2/concurrency.srcs/sources_1/new/LED_manager.vhd:48]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 486.297 ; gain = 153.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:28 . Memory (MB): peak = 486.297 ; gain = 153.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:28 . Memory (MB): peak = 486.297 ; gain = 153.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:40 . Memory (MB): peak = 616.750 ; gain = 284.434
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module LED_manager 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module register8 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:01:48 . Memory (MB): peak = 641.430 ; gain = 309.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:01:49 . Memory (MB): peak = 641.430 ; gain = 309.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:01:50 . Memory (MB): peak = 641.477 ; gain = 309.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:01:55 . Memory (MB): peak = 641.477 ; gain = 309.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:01:56 . Memory (MB): peak = 641.477 ; gain = 309.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:01:57 . Memory (MB): peak = 641.477 ; gain = 309.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT3 |     8|
+|3     |FDRE |    24|
+|4     |IBUF |    21|
+|5     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------------+------+
+|      |Instance |Module       |Cells |
++------+---------+-------------+------+
+|1     |top      |             |    62|
+|2     |  regCh1 |register8__1 |     8|
+|3     |  regCh2 |register8    |     8|
++------+---------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:02:00 . Memory (MB): peak = 641.477 ; gain = 309.160
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:02:00 . Memory (MB): peak = 641.477 ; gain = 309.160
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:02:01 . Memory (MB): peak = 641.477 ; gain = 309.160
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 753.500 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:02:23 . Memory (MB): peak = 753.500 ; gain = 434.012
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 753.500 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'L:/Xilinx_Training/Lab2/concurrency.runs/synth_1/LED_manager.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 753.500 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file LED_manager_utilization_synth.rpt -pb LED_manager_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  7 15:26:23 2022...

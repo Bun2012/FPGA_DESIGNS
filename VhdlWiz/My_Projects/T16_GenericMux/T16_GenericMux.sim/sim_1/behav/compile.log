@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T16_GenericMux/T16_GenericMux.srcs/sources_1/imports/exercises/T16_GenericMux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T16_GenericMux
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T16_GenericMux/T16_GenericMux.srcs/sim_1/imports/exercises/T16_GenericMuxTb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T16_GenericMuxTb

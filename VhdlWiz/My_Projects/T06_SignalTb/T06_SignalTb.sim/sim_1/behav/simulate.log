@@ -1,0 +1,108 @@
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+Note: *** Process begin ***
+Time: 0 ps  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 0
+Time: 0 ps  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 1
+Time: 0 ps  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 1
+Time: 10 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 1
+Time: 10 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 10 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 1
+Time: 10 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 2
+Time: 10 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 2
+Time: 20 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 2
+Time: 20 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 20 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 2
+Time: 20 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 3
+Time: 20 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 3
+Time: 30 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 3
+Time: 30 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 30 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 3
+Time: 30 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 4
+Time: 30 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 4
+Time: 40 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 4
+Time: 40 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 40 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 4
+Time: 40 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 5
+Time: 40 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 5
+Time: 50 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 5
+Time: 50 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 50 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 5
+Time: 50 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 6
+Time: 50 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 6
+Time: 60 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 6
+Time: 60 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 60 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 6
+Time: 60 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 7
+Time: 60 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 7
+Time: 70 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 7
+Time: 70 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 70 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 7
+Time: 70 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 8
+Time: 70 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 8
+Time: 80 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 8
+Time: 80 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 80 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 8
+Time: 80 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 9
+Time: 80 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 9
+Time: 90 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 9
+Time: 90 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 90 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 9
+Time: 90 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 10
+Time: 90 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Oddles is: 10
+Time: 100 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: After wait Rings is: 10
+Time: 100 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: *** Process begin ***
+Time: 100 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Oddles is: 10
+Time: 100 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd
+Note: Rings is: 11
+Time: 100 ns  Iteration: 0  Process: /T06_SignalTb/line__10  File: C:/VhdlWiz/My_Projects/T06_SignalTb/T06_SignalTb.srcs/sim_1/imports/exercises/T06_SignalTb.vhd

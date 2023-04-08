@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T15_Mux/T15_Mux.srcs/sources_1/imports/exercises/T15_Mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T15_Mux
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/VhdlWiz/My_Projects/T15_Mux/T15_Mux.srcs/sim_1/imports/exercises/T15_PortMapTb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity T15_PortMapTb

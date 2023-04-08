@@ -1,0 +1,48 @@
+Vivado Simulator 2015.3
+Time resolution is 1 ps
+Note: CountUp is: 1
+Time: 0 ps  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 9
+Time: 0 ps  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 2
+Time: 10 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 8
+Time: 10 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 3
+Time: 20 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 7
+Time: 20 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 4
+Time: 30 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 6
+Time: 30 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 5
+Time: 40 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 5
+Time: 40 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: Jackpot
+Time: 40 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__34  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 6
+Time: 50 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 4
+Time: 50 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 7
+Time: 60 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 3
+Time: 60 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 8
+Time: 70 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 2
+Time: 70 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 9
+Time: 80 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 1
+Time: 80 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 10
+Time: 90 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: 0
+Time: 90 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountUp is: 11
+Time: 100 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd
+Note: CountDown is: -1
+Time: 100 ns  Iteration: 1  Process: /T07_WaitOnUntilTb/line__21  File: C:/VhdlWiz/My_Projects/T07_WaitOnUntilTb/T07_WaitOnUntilTb.srcs/sim_1/imports/exercises/T07_WaitOnUntilTb.vhd

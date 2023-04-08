@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../processes.srcs/sources_1/new/reset_bridge.vhd" \
+"../../../../processes.srcs/sim_1/new/reset_bridge_tb2.vhd" \
+
+# Do not sort compile order
+nosort
